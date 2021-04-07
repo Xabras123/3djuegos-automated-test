@@ -46,7 +46,7 @@ public class Login extends TestLifeCycle{
         String textToCompare = "xabras123";
         By successText = By.xpath("//a[@class=\"xXx s14 cF mar_t2 dib b\"]");
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.tryLogin("xabras123@hotmail.com", "5271243");
+        loginPage.tryLogin("xabras123@hotmail.com", "8627124123");
         WebElement loginFalureText = driver.findElement(successText);
         Screenshot screenshot = new Screenshot(driver);
         screenshot.takeScreenshot("Succesful login");

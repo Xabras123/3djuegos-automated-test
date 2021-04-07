@@ -16,7 +16,7 @@ public class Profile extends TestLifeCycle{
     public void updateProfileSuccessful(){
 
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.tryLogin("xabras123@hotmail.com", "52751223");
+        loginPage.tryLogin("xabras123@hotmail.com", "12752223");
         String webURLToTestForTest = "https://www.3djuegos.com/comunidad.php?zona=preferencias_mi_perfil";
         By succesfullText = By.xpath("//form[@name=\"pref\"]//p[1]");
         String textToCompare = "Los datos de tu perfil han sido guardados";
